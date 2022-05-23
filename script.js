@@ -6,6 +6,7 @@ var rand = 300;
 
 function bgChange() {
    setInterval(function() {
+      rand += 100;
        if (isGroupOne) {
            document.body.style.backgroundColor = "#ffffff";
        } else {
